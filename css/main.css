@@ -1,12 +1,42 @@
-.klus-homepage {
-    
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    font-family: Poppins;
+}
+
+html, body {
+    height: 100vh;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-blue {
+    color: #0084F8;
 }
 
 p {
-    font-family: Poppins;
-    font-style: normal;
+    padding: 32px;
 }
+
+h1 {
+    padding-top: 128px;
+    padding-bottom: 32px;
+    font-size: 54px;
+}
+
+.line {
+    width: 30%;
+    background-color: white;
+}
+
 
 .left-side {
     background: linear-gradient(180deg, #0084F8 0%, #00C6FF 100%);
+}
+
+.right-side {
+    background:#E5E5E5;
+    border-left: 100px;
 }
