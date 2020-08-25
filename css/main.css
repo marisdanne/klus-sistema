@@ -17,7 +17,7 @@ html, body {
 }
 
 p {
-    padding: 32px;
+    padding: 32px 0px;
 }
 
 h1 {
@@ -37,6 +37,12 @@ h1 {
 }
 
 .right-side {
-    background:#E5E5E5;
-    border-left: 100px;
+    background:#FFFFFF;
 }
+
+.error-inform {
+    position: absolute;
+    bottom: 32px;
+    right: 32px;
+}
+
